@@ -1,0 +1,44 @@
+@font-face {
+  font-family: 'image';
+  src:  url('../iconFonts/image.eot?jl2nb6');
+  src:  url('../iconFonts/image.eot?jl2nb6#iefix') format('embedded-opentype'),
+    url('../iconFonts/image.ttf?jl2nb6') format('truetype'),
+    url('../iconFonts/image.woff?jl2nb6') format('woff'),
+    url('../iconFonts/image.svg?jl2nb6#image') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="_icon-"]::before, [class*=" _icon-"]::before {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'image' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+._icon-facebook:before {
+  content: "\e900";
+}
+._icon-inst:before {
+  content: "\e901";
+}
+._icon-star:before {
+  content: "\e902";
+  color: #818181;
+}
+._icon-twitter:before {
+  content: "\e903";
+}
+._icon-right:before {
+  content: "\e904";
+  color: #976464;
+}

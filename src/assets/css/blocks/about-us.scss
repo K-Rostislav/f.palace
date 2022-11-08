@@ -1,0 +1,36 @@
+.about-us {
+    padding: rem(85) 0 rem(140);
+    background: linear-gradient(180deg, rgba(255, 148, 1, 0.05) 0%, rgba(255, 237, 211, 0) 100%);
+
+    @include adp('padding-top', 85, 40);
+    @include adp('padding-bottom', 140, 40);
+}
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: rem(140);
+    @include adp('column-gap', 140, 10);
+
+    @media (max-width: em(500)) {
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+}
+.grid__img {
+    max-width: rem(640);
+    max-height: rem(510);
+    width: 100%;
+
+    img {
+        max-width: 100%;
+        height: 100%;
+        object-fit: contain;
+    }
+}
+.grid__title {
+    font-family: 'Gilroy';
+    font-weight: 700;
+    font-size: rem(54);
+    margin-bottom: em(40, 54);
+    @include adp('font-size', 54, 24);
+}

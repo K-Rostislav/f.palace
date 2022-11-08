@@ -1,0 +1,25 @@
+@import "vendor/fonts";
+@import "vendor/reset";
+@import "vendor/mixins";
+
+body {
+    background-color: #FFFEFC;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+/* Blocks */
+@import "blocks/header.scss";
+@import "blocks/intro.scss";
+@import "blocks/about-us.scss";
+@import "blocks/features.scss";
+@import "blocks/Recipes.scss";
+@import "blocks/take-away.scss";
+@import "blocks/footer.scss";
+
+/* Common styles */
+@import "vendor/common-styles";
