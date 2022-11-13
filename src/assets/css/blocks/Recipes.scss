@@ -1,10 +1,10 @@
-.Recipes {
+.recipes {
     padding: rem(85) 0 rem(80);
     @include adp('padding-top', 85, 40);
     @include adp('padding-bottom', 80, 40);
     background: linear-gradient(180deg, rgba(255, 148, 1, 0.05) 0%, rgba(255, 237, 211, 0) 100%);
 }
-.Recipes__flex {
+.recipes__flex {
     display: flex;
     justify-content: space-between;
     gap: rem(10);
@@ -74,11 +74,17 @@
     font-size: rem(10);
     text-transform: uppercase;
     color: #696969;
-    background: rgba(196, 196, 196, 0.26);
+    background-color: #e8e8e8;
     border: 0;
     border-radius: rem(15);
     padding: rem(8) rem(18);
     cursor: pointer;
+    transition: background-color, color, .2s;
+
+    &:hover {
+        color: white;
+        background-color: #bebebe;
+    }
 }
 .card__price {
     font-family: 'Gilroy';
@@ -86,7 +92,6 @@
     color: #FF9401;
     font-weight: 700;
 }
-.Recipes__button {
-    display: block;
-    margin: 0 auto;
+.recipes__wrap-btn {
+    text-align: center;
 }

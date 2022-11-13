@@ -26,9 +26,11 @@
 }
 .footer__social-item {
     a {
+        position: relative;
         text-decoration: none;
         color: #3F3232;
         font-family: 'Circular Std';
+        transition: color .2s;
     }
 }
 .footer__flex {
@@ -51,7 +53,7 @@
         align-items: center;
     }
 }
-.footer__inner {
+.footer__col {
     width: 100%;
     text-align: center;
 
@@ -87,7 +89,7 @@
         }
     }
 }
-.footer__inner-title {
+.footer__col-title {
     font-family: 'Gilroy';
     font-weight: 600;
     color: #2E2E2E;
@@ -104,6 +106,33 @@
         font-family: 'Circular Std';
         text-decoration: none;
         color: #6A5C5C;
+        position: relative;
+        transition: color .2s;
+    }
+}
+.footer__list-item,
+.footer__social-item {
+    a {
+        &::after {
+            content: "";
+            display: block;
+            width: 0;
+            position: absolute;
+            bottom: rem(-1%);
+            height: rem(2);
+            background-color: #FF9401;
+            left: 50%;
+            transform: translateX(-50%);
+            transition: width .2s;
+        }
+
+        &:hover {
+            color: #FF9401;
+            
+            &::after {
+                width: 100%;
+            }
+        }
     }
 }
 .footer__text {

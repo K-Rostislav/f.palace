@@ -14,7 +14,7 @@ testWebP(function(support){
 });
 //=============================================================================================================================================
 
-const buttons = document.querySelectorAll('.footer__inner-title');
+const buttons = document.querySelectorAll('.footer__col-title');
 
 for (let item of buttons) {
     item.addEventListener('click', (event) => {

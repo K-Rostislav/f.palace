@@ -32,22 +32,24 @@
             <section data-aos="fade-in" data-aos-duration="1000" class="intro">
                 <div class="container container_intro">
                     <div class="intro__inner">
-                        <h2 class="title-orange">Restaurant</h2>
-                        <h1 class="intro__title">Good F<picture><source srcset="assets/img/intro/intro-text-1.webp" type="image/webp"><img class="intro__title-img" src="assets/img/intro/intro-text-1.jpg"></picture>d</h1>
-                        <h1 class="intro__title">Good M<picture><source srcset="assets/img/intro/intro-text-2.webp" type="image/webp"><img class="intro__title-img" src="assets/img/intro/intro-text-2.jpg"></picture>d</h1>
+                        <p class="title-orange">Restaurant</p>
+                        <h1 class="intro__title">
+                            Good F<picture><source srcset="assets/img/intro/intro-text-1.webp" type="image/webp"><img class="intro__title-img" src="assets/img/intro/intro-text-1.jpg"></picture>d<br>
+                            Good M<picture><source srcset="assets/img/intro/intro-text-2.webp" type="image/webp"><img class="intro__title-img" src="assets/img/intro/intro-text-2.jpg"></picture>d
+                        </h1>
                         <p class="text">
                             The food palace is an neighborhood restaurent serving seasonal global cuisine driven by the faire.
                         </p>
-                        <button class="button button_intro">Explore food menu</button>
+                        <a class="button button_intro">Explore food menu</a>
                         <div class="intro__social">
                             <div data-aos="fade-up" data-aos-delay="" class="intro__social-icon">
-                                <a class="_icon-facebook intro__social-icon-item" href=""></a>
+                                <a target="_blank" class="_icon-facebook intro__social-icon-item" href=""></a>
                             </div>
                             <div data-aos="fade-up"  data-aos-delay="150" class="intro__social-icon">
-                                <a class="_icon-inst intro__social-icon-item" href=""></a>
+                                <a target="_blank" class="_icon-inst intro__social-icon-item" href=""></a>
                             </div>
                             <div data-aos="fade-up"  data-aos-delay="300" class="intro__social-icon">
-                                <a class="_icon-twitter intro__social-icon-item" href=""></a>
+                                <a target="_blank" class="_icon-twitter intro__social-icon-item" href=""></a>
                             </div>
                         </div>
                     </div>
@@ -63,13 +65,13 @@
                         <picture><source srcset="assets/img/about-us/about-us.webp" type="image/webp"><img src="assets/img/about-us/about-us.jpg" alt=""></picture>
                     </div>
                     <div data-aos="fade-up" data-aos-duration="600" class="grid__inner">
-                        <h1 data-aos="fade-up" data-aos-duration="600" data-aos-delay="100" class="title-orange">About us</h1>
-                        <h1 class="grid__title">Simple Way of Eating Delicious</h1>
+                        <p data-aos="fade-up" data-aos-duration="600" data-aos-delay="100" class="title-orange">About us</p>
+                        <h2 class="grid__title">Simple Way of Eating Delicious</h2>
                         <p class="text">
                             Keep healthy food readily available. When you get hungry, 
                             you’re more likely to eat the first thing you see on the counter or in the
                         </p>
-                        <button class="button">Explore our story</button>
+                        <a class="button">Explore our story</a>
                     </div>
                 </div>
             </section>
@@ -79,8 +81,8 @@
                 <picture><source srcset="assets/img/decor/decor-2.webp" type="image/webp"><img class="features__decor2" src="assets/img/decor/decor-2.png" alt=""></picture>
                 <div class="container container_features">
                     <div class="title-block">
-                        <h1 class="title-orange">Features</h1>
-                        <h1 class="title-block__title">Our Awesome Services</h1>
+                        <p class="title-orange">Features</p>
+                        <h2 class="title-block__title">Our Awesome Services</h2>
                     </div>
 
                     <div class="features__grid">
@@ -110,14 +112,14 @@
                     </div>
                 </div>
             </section>
-            <!---- Recipes ----------------------------------------------------------------------------->
-            <section data-aos="fade-in" data-aos-duration="1000" class="Recipes">
+            <!---- recipes ----------------------------------------------------------------------------->
+            <section data-aos="fade-in" data-aos-duration="1000" class="recipes">
                 <div class="container">
                     <div class="title-block title-block_recipes">
-                        <h1 class="title-orange">Recipes</h1>
-                        <h1 class="title-block__title">Our Awesome Services</h1>
+                        <p class="title-orange">Recipes</p>
+                        <h2 class="title-block__title">Our Awesome Services</h2>
                     </div>
-                    <div class="Recipes__flex">
+                    <div class="recipes__flex">
                         <div class="card">
                             <div class="card__img">
                                 <picture><source srcset="assets/img/recipes/card-1.webp" type="image/webp"><img src="assets/img/recipes/card-1.jpg" alt=""></picture>
@@ -127,7 +129,7 @@
                                 <p class="card__rating _icon-star">8.5</p>
                             </div>
                             <div class="card__flex">
-                                <button class="card__add">add to cart</button>
+                                <button type="button" class="card__add">add to cart</button>
                                 <p class="card__price">$ 19.99</p>
                             </div>
                         </div>
@@ -140,7 +142,7 @@
                                 <p class="card__rating _icon-star">8.5</p>
                             </div>
                             <div class="card__flex">
-                                <button class="card__add">add to cart</button>
+                                <button type="button" class="card__add">add to cart</button>
                                 <p class="card__price">$ 20.99</p>
                             </div>
                         </div>
@@ -153,12 +155,14 @@
                                 <p class="card__rating _icon-star">8.5</p>
                             </div>
                             <div class="card__flex">
-                                <button class="card__add">add to cart</button>
+                                <button type="button" class="card__add">add to cart</button>
                                 <p class="card__price">$ 18.99</p>
                             </div>
                         </div>
                     </div>
-                    <button class="Recipes__button button">See more recipes</button>
+                    <div class="recipes__wrap-btn">
+                        <a class="button">See more recipes</a>
+                    </div>
                 </div>
             </section>
             <!---- take-away ---------------------------------------------------------------------------->
@@ -170,8 +174,8 @@
                         <picture><source srcset="assets/img/take-away/take-away.webp" type="image/webp"><img src="assets/img/take-away/take-away.jpg" alt=""></picture>
                     </div>
                     <div data-aos="fade-left" data-aos-duration="600" class="grid__inner">
-                        <h1 data-aos="fade-left" data-aos-duration="600" data-aos-delay="100" class="title-orange">Take away</h1>
-                        <h1 class="grid__title">Simple Way To Order Your Food</h1>
+                        <p data-aos="fade-left" data-aos-duration="600" data-aos-delay="100" class="title-orange">Take away</p>
+                        <h2 class="grid__title">Simple Way To Order Your Food</h2>
                         <p class="text">
                             Keep healthy food readily available. When you get hungry, you’re more likely to eat the first thing you see on the counter or in the cupboard.
                         </p>
@@ -201,8 +205,8 @@
             </div>
         </div>
         <div class="footer__flex">
-            <div class="footer__inner">
-                <p data-tab="tab1" class="footer__inner-title">Our menu</p>
+            <div class="footer__col">
+                <p data-tab="tab1" class="footer__col-title">Our menu</p>
                 <ul id="tab1" class="footer__list">
                     <li class="footer__list-item">
                         <a href="">Breakfast</a>
@@ -215,8 +219,8 @@
                     </li>
                 </ul>
             </div>
-            <div class="footer__inner">
-                <p data-tab="tab2" class="footer__inner-title">Information</p>
+            <div class="footer__col">
+                <p data-tab="tab2" class="footer__col-title">Information</p>
                 <ul id="tab2" class="footer__list">
                     <li class="footer__list-item">
                         <a href="">about us</a>
@@ -229,8 +233,8 @@
                     </li>
                 </ul>
             </div>
-            <div class="footer__inner">
-                <p data-tab="tab3" class="footer__inner-title">useful links</p>
+            <div class="footer__col">
+                <p data-tab="tab3" class="footer__col-title">useful links</p>
                 <ul id="tab3" class="footer__list">
                     <li class="footer__list-item">
                         <a href="">services</a>
@@ -243,8 +247,8 @@
                     </li>
                 </ul>
             </div>
-            <div class="footer__inner">
-                <p data-tab="tab4" class="footer__inner-title">Social Handles</p>
+            <div class="footer__col">
+                <p data-tab="tab4" class="footer__col-title">Social Handles</p>
                 <ul id="tab4" class="footer__list">
                     <li class="footer__list-item">
                         <a href="">facebook</a>

@@ -19,10 +19,11 @@
     color: white;
     font-size: rem(20);
     box-shadow: 0 40px 20px 0;
-    transition: background-color .2s;
+    transition: background-color, color .2s;
     -webkit-box-shadow: 0px 20px 20px 0px rgba(255, 148, 1, 0.2);
     -moz-box-shadow: 0px 20px 20px 0px rgba(255, 148, 1, 0.2);
     box-shadow: 0px 20px 20px 0px rgba(255, 148, 1, 0.2);
+    display: inline-block;
     @include adp('font-size', 20, 14);
 
     &_intro {
@@ -42,6 +43,7 @@
     font-weight: 600;
     color: #FF9401;
     margin-bottom: rem(24);
+    font-size: rem(24);
 }
 
 .title-block {
@@ -64,7 +66,7 @@
     font-size: rem(20);
     margin-bottom: em(60, 20);
     font-family: 'Circular Std';
-    @include adp('font-size', 20, 14);
+    @include adp('font-size', 20, 16);
 
     &_features {
         font-size: rem(18);
