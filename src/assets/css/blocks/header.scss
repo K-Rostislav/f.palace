@@ -37,22 +37,3 @@
         display: none;
     }
 }
-.header__burger {
-    width: rem(20);
-    height: rem(17);
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    cursor: pointer;
-}
-.header__burger-line {
-    display: block;
-    background-color: black;
-    border-radius: em(1.5);
-    height: rem(3);
-    
-    &:nth-child(2) {
-        width: 80%;
-        margin-left: auto;
-    }
-}
